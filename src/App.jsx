@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./App.css";
 import SlotBox from "./apps/SlotBox";
+import Header from "./apps/Header";
 
 function App() {
   return (
     <div>
-      <h1>999</h1>
+      <Header />
       <SlotBox values={["d", "e", "d"]} />
     </div>
   );
